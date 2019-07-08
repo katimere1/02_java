@@ -22,32 +22,33 @@ public class TernaryTest {
 
 	public static void main(String[] args) {
 		// 1. 선언, 2. 초기화
-		int x =10;
-		int y - -10;
-		
+		int x = 10;
+		int y = -10;
+
 		int absX = (x >= 0) ? x : -x;
-		int absY = (y >= 0)	? y : -y;
-		
+		int absY = (y >= 0) ? y : -y;
+
 		// 3. 사용 : 출력
-		System.out.printf("x=%d" 일 때,  x의 절댓값은 %d%n", x, )"
-		System.out.printf
-		
+		System.out.printf("x=%d 일 때, x의 절댓값은 %d%n", x, absX);
+		System.out.printf("y=%d 일 때, y의 절댓값은 %d%n", y, absY);
+
 		// 스캐너를 사용하여 입력받은 정수에 대해
 		// 절댓값을 구해보자.
-		// 1. 스캐너 및 변수선언 선언
-		Scanner scan; // ctrl +shift + o
+		// 1. 스캐너 및 변수 선언 선언
+		Scanner scan; // ctrl + shift + o
 		int z;
 		int absZ;
-		
+
 		// 2. 스캐너 및 변수 초기화
-		scan = new Scenner(System.in);
-		
+		scan = new Scanner(System.in); 
+
 		// 무엇을 입력할지 알려주는 메시지 출력
 		System.out.println("정수를 입력하세요.");
 		z = scan.nextInt();
-		
+
 		absZ = (z >= 0) ? z : -z;
 		System.out.printf("z=%d 일 때, z의 절댓값은 %d%n", z, absZ);
 	}
 
 }
+

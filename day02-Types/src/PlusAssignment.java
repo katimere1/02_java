@@ -25,6 +25,9 @@ public class PlusAssignment {
 		System.out.printf("num += num + 1 수행 후, num=%d%n", num);
 		
 				
-		num *= num * num		
+		num *= num * num;
+		System.out.printf("num *= num * num 수행 후"
+		                + ", num=%d%n", num);	
 
+      }
 }
